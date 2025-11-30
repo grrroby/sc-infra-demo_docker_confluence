@@ -1,0 +1,10 @@
+bernie.127.0.0.1.nip.io {
+
+   tls internal
+   reverse_proxy confluence_1:8090
+}
+
+jira.127.0.0.1.nip.io {
+    tls internal
+    reverse_proxy jira:8080 
+}
