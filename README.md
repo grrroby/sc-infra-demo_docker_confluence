@@ -11,3 +11,4 @@
 
   Please use a `.env` to configure the version and the URL name. To customize use the `Caddyfile`.
   The sql is for my own testing with a broken team-calendar.
+  Pllease keep in mind to use a postgres and conflunece version that is compatible.
