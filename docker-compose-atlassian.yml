@@ -20,7 +20,6 @@ services:
 
   confluence_1:
     image: ${CONTAINER_ID_CONFLUENCE}
-    build: ${CONFLUENCE_VERSION}
     container_name: confluence_1
     depends_on:
       - confluence-postgres_1
